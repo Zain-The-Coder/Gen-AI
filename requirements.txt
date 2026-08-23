@@ -1,0 +1,5 @@
+langchain>=1.3.16
+langchain-google-genai
+langchain-groq
+langchain-mistralai
+python-dotenv
