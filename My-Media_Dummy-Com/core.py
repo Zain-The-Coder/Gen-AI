@@ -4,6 +4,7 @@ from langchain_mistralai import ChatMistralAI
 
 load_dotenv()
 
+
 prompt = ChatPromptTemplate.from_messages([
     ("system" , 
     """
