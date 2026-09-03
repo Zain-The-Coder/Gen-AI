@@ -38,5 +38,6 @@ final_prompt = prompt.invoke(
 
 model = ChatMistralAI(model = 'mistral-small-2506')
 response = model.invoke(final_prompt)
+movie_data = parser.parse(response.content)
 
-print(response.content)
+print(movie_data)
